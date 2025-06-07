@@ -13,7 +13,36 @@
 </head>
 <body>
     
-    
+            <p>
+            A sparkle twinkles in their eye when they see the golden ticket in your hand.
+            "Ah! You must be {{ session['name'] }}! Congratulations on winning our vacation giveaway! Let's get you checked in right 
+            away!" You see her extend a scanner over the lobby desk and a red laser flashes over your ticket, a successful beep chirps.
+            "Perfect! I've got all your information right here for you! Please enjoy your beach facing room on the fourth floor. If you 
+            need anything please do not hesitate to call down and let our staff know! We'll be more than happy to assist you!"
+        </p>
+
+
+
+
+
+
+        <p>
+            "Before I let you go I'd like to let you know that you've come during a wonderful time! We have a special exhibit in the museum 
+            going on right now to celebrate our citys rich history!"
+        </p>
+
+        
+        <p>You exit the bus and enter the hotel lobby. They scan your barcode for your hotel room.</p>
+        <p>Welcome {{ session['name'] }}! Thank you so much for choosing to stay with us!</p>
+        <p>We have a lot of fun places where you can begin your vacation! We have a special exhibit going on the museum right now, 
+            the hotel bar is a great place to unwind and meet the locals, or you could simply choose to take in the vacation and hit the beach!
+        </p>
+        
+        <div class="choices">
+            <a href="/1a" class="choiceLine">Let's relax! The beach sounds great.</a>
+            <a href="/2a" class="choiceLine">I could use a drink and unwind.</a>
+            <a href="/3a" class="choiceLine">Learning the towns history could be fun and educational.</a>
+        </div>
 
 
 </body>

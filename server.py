@@ -19,7 +19,7 @@ def start():
     return render_template("start.html")
 
 @app.route('/start2')
-def start():
+def start2():
     return render_template("start2.html")
 
 # PATH ONE CHOICES -- VACATION
